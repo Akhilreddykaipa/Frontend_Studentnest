@@ -1,0 +1,98 @@
+.booking{
+	min-height:20vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* background-color: aquamarine; */
+	padding: 20px 0px;
+}
+.booking-main{
+	height: 80vh;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	/* background-color: bisque; */
+	flex-direction: column;
+	border-radius: 10px;
+	box-shadow: var(--main-shadow);
+	padding: 20px 10px;
+}
+.booking-main-info{
+	height: 30%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	/* background-color: blueviolet; */
+	padding: 10px;
+}
+.booking-main-info-left{
+	height: 100%;
+	width: 45%;
+	border-radius: 10px;
+	box-shadow: var(--main-shadow);
+}
+.booking-main-info-left img{
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+}
+.booking-main-info-right{
+	height: 100%;
+	width: 45%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: var(--main-font);
+}
+.booking-main-info-right h2{
+	text-align: center;
+	font-size: 3rem;
+	text-decoration: underline;
+}
+.booking-main-info-right p{
+	font-size: 3rem;
+}
+.booking-main form{
+	height:65%;
+	width: 100%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+	gap: 5px;
+}
+.booking-main form label{
+	font-size: 2.5rem;
+	font-family: var(--main-font);
+	margin-top: 10px;
+}
+.booking-main form input{
+	width: 100%;
+	height: 3rem;
+	font-size: 2rem;
+	font-family: var(--main-font);
+	outline: none;
+	text-indent: 5px;
+}
+.booking-main form input::-webkit-outer-spin-button,
+.booking-main form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.booking-main form button{
+	font-family: var(--main-font);
+	font-size: 2rem;
+	border: none;
+	background-color: var(--main-color);
+	padding: 10px 20px;
+	cursor: pointer;
+	box-shadow: var(--main-shadow);
+	margin: 10px 0px;
+}
+.booking-main form button:hover{
+	background-color: var(--main-color-hover);
+}

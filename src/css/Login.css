@@ -1,0 +1,70 @@
+.login{
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+}
+.login-main{
+	width: 50rem;
+	min-height: 50rem;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	border-radius: 10px;
+	padding: 20px;
+}
+.login-main img{
+	width: 7rem;
+}
+.login-main h1{
+	font-family: var(--main-font);
+	font-size: 5rem;
+}
+.login-main form{
+	width: 80%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	gap: 20px;
+}
+.login-main form input{
+	width: 100%;
+	height: 4rem;
+	font-size: 1.8rem;
+	text-indent: 10px;
+	outline: none;
+}
+.login-main form input::-webkit-outer-spin-button,
+.login-main form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.login-main form input ::placeholder{
+	font-family: var(--main-font);
+}
+.login-main form button{
+	font-family: var(--main-font);
+	font-size: 2rem;
+	border: none;
+	background-color: var(--main-color);
+	padding: 10px 20px;
+	cursor: pointer;
+	box-shadow: var(--main-shadow);
+}
+.login-main form button:hover{
+	background-color: var(--main-color-hover);
+}
+.login-main p{
+	font-size: 2rem;
+	font-family: var(--main-font);
+}
+.login-main p span{
+	cursor: pointer;
+	color: rgb(0, 145, 255);
+}

@@ -1,0 +1,71 @@
+.contactus{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 70vh;
+	/* background-color: aquamarine; */
+}
+.contactus-main{
+	width: 80%;
+	height: 90%;
+	/* background-color: rgb(191, 40, 40); */
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	gap: 20px;
+	padding: 10px 20px;
+	box-shadow: var(--main-shadow);
+}
+.contactus-main form{
+	height: 100%;
+	width: 40%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-direction: column;
+}
+.contactus-main form h2{
+	font-size: 3rem;
+	font-family: var(--main-font);
+}
+.contactus-main form label{
+	margin-top: 10px;
+	font-size: 2rem;
+	font-family: var(--main-font);
+}
+.contactus-main form input{
+	width: 100%;
+	height: 3rem;
+	outline: none;
+	text-indent: 5px;
+	font-size: 1.8rem;
+}
+.contactus-main form textarea{
+	width: 100%;
+	height: 50%;
+	outline: none;
+	text-indent: 5px;
+	font-size: 2rem;
+}
+.contactus-main form button{
+	font-family: var(--main-font);
+	font-size: 2rem;
+	border: none;
+	background-color: var(--main-color);
+	padding: 10px 20px;
+	cursor: pointer;
+	box-shadow: var(--main-shadow);
+	margin: 10px 0px;
+}
+.contactus-main form button:hover{
+	background-color: var(--main-color-hover);
+}
+.contactus-main-image{
+	width: 40%;
+	height: 100%;
+}
+.contactus-main-image img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
